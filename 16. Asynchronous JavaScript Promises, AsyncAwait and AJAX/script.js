@@ -3,7 +3,7 @@
 const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
 
-// ? first Ajax
+// ? first Ajax with a function
 
 const getCountryData = function(country){
     const request = new XMLHttpRequest();
